@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:gravity="center"
-            android:text="@string/conversor_de_moedas"
+            android:text="@string/main_currency_converter"
             android:textAlignment="center">
 
         </com.google.android.material.textview.MaterialTextView>
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
-            android:hint="@string/moeda">
+            android:hint="@string/main_currency">
 
             <AutoCompleteTextView
                 android:id="@+id/currency_selection_input_layout"
@@ -45,6 +45,14 @@
                 android:inputType="none"/>
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/load_currency_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_load_currency"
+            android:textSize="16sp"
+            android:gravity="center"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
