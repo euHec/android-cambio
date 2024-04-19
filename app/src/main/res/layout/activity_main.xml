@@ -54,5 +54,15 @@
             android:textSize="16sp"
             android:gravity="center"/>
 
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/select_currency_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_select_currency"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
