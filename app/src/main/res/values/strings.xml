@@ -6,4 +6,5 @@
     <string name="main_currency_converter">Conversor de Moedas</string>
     <string name="main_connection_error">Erro de conexão</string>
     <string name="conversor_de_moedas">Conversor de Moedas</string>
+    <string name="moeda">Moeda</string>
 </resources>
